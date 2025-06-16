@@ -22,7 +22,7 @@ export default function Projects() {
 					</div>
 				</div>
 
-				<HiddenModals />
+				{/* <HiddenModals /> */}
 
 			</React.Fragment>
 		);

@@ -1,10 +1,5 @@
 import React, {useState} from "react";
 
-//import images
-import Vmarine from "../../img/Vmarine.jpg";
-import aguaDeLuz from "../../img/aguaDeLuz.png";
-import todo from "../../img/todolist.png";
-
 
 
 import HiddenModalDescription from "./hiddenModals.description";
@@ -12,37 +7,37 @@ import HiddenModalDescription from "./hiddenModals.description";
 export default function HiddenModals() {
 
     const [projects, setProjects] = useState([
-        {
-            name: "vmarine",
-            image: Vmarine,
-            status: "View Live Demo",
-            ref:"./",
-            description: [
-                "Prototype marine web-application to provide information about progress of services and prices.",
-                "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS.",
-                "ba;lasdjkpasj kl;djaslkjdl kasl;d l;asd ."
-            ]
-        },
-        {
-            name: "agualuz",
-            image: aguaDeLuz,
-            status: "View Live Demo",
-            ref: "./AguaDeLuz/index.html",
-            description: [
-                "Marine web-application to provide information about progress of services and prices.",
-                "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
-            ]
-        },
-        {
-            name: "todolist",
-            image: todo,
-            status: "View Live Demo",
-            ref: "./todoList/index.html",
-            description: [
-                "YEAHHHH lication to provide information about progress of services and prices.",
-                "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
-            ]
-        }
+        // {
+        //     name: "vmarine",
+        //     image: Vmarine,
+        //     status: "View Live Demo",
+        //     ref:"./",
+        //     description: [
+        //         "Prototype marine web-application to provide information about progress of services and prices.",
+        //         "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS.",
+        //         "ba;lasdjkpasj kl;djaslkjdl kasl;d l;asd ."
+        //     ]
+        // },
+        // {
+        //     name: "agualuz",
+        //     image: aguaDeLuz,
+        //     status: "View Live Demo",
+        //     ref: "./AguaDeLuz/index.html",
+        //     description: [
+        //         "Marine web-application to provide information about progress of services and prices.",
+        //         "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
+        //     ]
+        // },
+        // {
+        //     name: "todolist",
+        //     image: todo,
+        //     status: "View Live Demo",
+        //     ref: "./todoList/index.html",
+        //     description: [
+        //         "YEAHHHH lication to provide information about progress of services and prices.",
+        //         "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
+        //     ]
+        // }
     ]);
 
 

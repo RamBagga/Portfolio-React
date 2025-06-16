@@ -1,6 +1,4 @@
 @import "~bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
 
 /*****************STARTS TOP BACKGROUND SECTION***************/
 #stars {
@@ -166,13 +164,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.todobg { 
-    background-image: url("../img/todolist.png");
-    height: 400px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+// .todobg { 
+//     background-image: url("../img/todolist.png");
+//     height: 400px; 
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 
 .mytext {
     font-size: 1.2rem;

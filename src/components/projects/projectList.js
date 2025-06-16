@@ -2,27 +2,27 @@ import React, { useState } from 'react';
 
 
 //import images
-import Vmarine from "../../img/Vmarine.jpg";
-import aguaDeLuz from "../../img/aguaDeLuz.png";
-import todo from "../../img/todolist.png";
+import tnu1 from "../../img/tnu1.png";
+import tnu2 from "../../img/tnu2.png";
+import formCraft from "../../img/formCraft.png";
 
 export default function ProjectList() {
 
     const [projects] = useState([
         {
-            name: "vmarine",
-            image: Vmarine,
-            button: "vmarine"
+            name: "SkillUp",
+            image: tnu1,
+            // button: "tnu1"
         },
         {
-            name: "agualuz",
-            image: aguaDeLuz,
-            button: "agua"
+            name: "SkillUp",
+            image: tnu2,
+            // button: "agua"
         },
         {
-            name: "todolist",
-            image: todo,
-            button: "todo"
+            name: "FormCraft",
+            image: formCraft,
+            // button: "todo"
         }
     ]);
 
@@ -51,11 +51,8 @@ export default function ProjectList() {
                             <div className="text">
                                 <h2>{project.name}</h2>
                             </div>
-                            <div>
-                                <button id={project.button + "-button"} className="project-button" onClick={() => showModal(project.name)}>
-                                    Learn More
-                                </button>
-                            </div>
+                            {/* <div>
+                            </div> */}
                         </div>
                     </div>
                 )})

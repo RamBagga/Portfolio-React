@@ -15,14 +15,12 @@ export default function AboutDescription(props) {
                     alt="Portfolio Image"
                     style={{
                         borderRadius: 50 + "%",
-                        height: 250 + "px",
-                        width: 250 + "px"
+                        height: 260 + "px",
+                        width: 260 + "px"
                     }}
                 />
                 <p className="mytext pt-3">
-                    I love to transform ideas into reality using code. I
-                    am passionate about using Javascript and animations
-                    to create awesome user experiences.
+                    I am a full stack proficient software engineer, specializing in building fault tolerant systems and building responsive web applications.
                 </p>
             </div>
 
