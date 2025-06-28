@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.d6d92d75.css",
-    "main.js": "/Portfolio-React/static/js/main.f20fc4bf.js",
+    "main.css": "/Portfolio-React/static/css/main.fbf935f8.css",
+    "main.js": "/Portfolio-React/static/js/main.293d3176.js",
     "static/media/aguaDeLuz.png": "/Portfolio-React/static/media/aguaDeLuz.467713cf149b04296aa1.png",
-    "static/media/Vmarine.jpg": "/Portfolio-React/static/media/Vmarine.41ef118bf504ac6be33f.jpg",
-    "static/media/myImage.png": "/Portfolio-React/static/media/myImage.5c5cc341a681d575a8b5.png",
-    "static/media/todolist.png": "/Portfolio-React/static/media/todolist.04db867b1ada07cbc6dc.png",
+    "static/media/tnu1.png": "/Portfolio-React/static/media/tnu1.53f0f5cc0a33546145d3.png",
+    "static/media/formCraft.png": "/Portfolio-React/static/media/formCraft.4566465df5d4c0ac72cc.png",
+    "static/media/tnu2.png": "/Portfolio-React/static/media/tnu2.e55a9863d1819043a998.png",
+    "static/media/myImage.png": "/Portfolio-React/static/media/myImage.fc8b5ca3bc6c6077fc9b.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.d6d92d75.css.map": "/Portfolio-React/static/css/main.d6d92d75.css.map",
-    "main.f20fc4bf.js.map": "/Portfolio-React/static/js/main.f20fc4bf.js.map"
+    "main.fbf935f8.css.map": "/Portfolio-React/static/css/main.fbf935f8.css.map",
+    "main.293d3176.js.map": "/Portfolio-React/static/js/main.293d3176.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6d92d75.css",
-    "static/js/main.f20fc4bf.js"
+    "static/css/main.fbf935f8.css",
+    "static/js/main.293d3176.js"
   ]
 }
